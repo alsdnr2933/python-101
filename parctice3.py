@@ -18,7 +18,7 @@ while True:
     user_way2 = input("There's a river in front. How do you want to cross? 1. swin 2. wait for boat").strip()
 
     if user_way2 == "1":
-        print("I was eaten by a crocodile")
+        print("I was eaten by a crocodile -GAME OVER- ")
         exit()
     elif user_way2 =="2":
         print("I took a boat!")
